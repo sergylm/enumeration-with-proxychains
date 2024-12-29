@@ -47,3 +47,29 @@ Getting service information for <IP>...
 ```
 
 In case of errors or no open ports, appropriate messages will be displayed.
+
+
+## Requirements
+
+To use this script, ensure the following dependencies are installed on your system:
+
+- Python: Version 3.6 or higher.
+
+        sudo apt-get install python3
+  
+- Nmap: A network scanning tool.
+
+        sudo apt-get install nmap
+  
+- Proxychains: For routing traffic through proxies.
+
+        sudo apt-get install proxychains
+
+*Permissions: Sufficient privileges to run network scans (e.g., sudo access if required).*
+
+### Additionally:
+- A file containing the list of IPs to scan (one IP per line).
+- The default proxychains configuration file is /etc/proxychains.conf. Ensure it is properly set up for your proxy.
+
+### Optional:
+- Multi-threading capability can be enhanced by adjusting system limits if scanning many IPs simultaneously.
