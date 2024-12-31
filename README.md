@@ -10,7 +10,7 @@ Designed for efficiency and precision, this script is ideal for network engineer
 
 # Usage
 
-`python3 script_name.py <ip_list_file> <top_ports> [proxychains_config] [--threads <num_threads>]`
+`python3 enumerate.py <ip_list_file> <top_ports> [proxychains_config] [--threads <num_threads>]`
 
 ## Arguments
 - **ip_list_file**: Path to the file containing IPs to scan (one IP per line).
